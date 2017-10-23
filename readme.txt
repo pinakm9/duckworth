@@ -1,0 +1,1 @@
+Resource.png contains plots for Z(u,w) for fixed w. wickets_in_hand__w.png contains scatter plot of observed data and plot of a curve predicted by our model when the number of wickets remaining is w.
