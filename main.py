@@ -67,7 +67,7 @@ def create_table():
 	for over_rem in range(50):
 		row = []
 		for wckt_rem in range(11):
-			if len(d[(over_rem, wckt_rem)]) >= 30: # If at least 25 data points aren't found we ignore the
+			if len(d[(over_rem, wckt_rem)]) >= 30: # If at least 30 data points aren't found we ignore the
 				row.append(ceil(avg(d[(over_rem, wckt_rem)]))) # situation while optimizing
 			else:
 				row.append(-1)
